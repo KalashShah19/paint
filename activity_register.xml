@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnrLogin"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnrRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="Login"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/rFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:inputType="text"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"/>
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rFname"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/lEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLastName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-49dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/lPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lEmail"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnrRegister"
+        android:textColor="@color/black"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnrRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="Already have account?"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>
